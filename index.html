@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <title>Calculadora de Volumes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn1.iconfinder.com/data/icons/thin-line-1/423332/45-512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn1.iconfinder.com/data/icons/thin-line-1/423332/45-512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn1.iconfinder.com/data/icons/thin-line-1/423332/45-512.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="nav">
+    <h1>Calculadora de Volumes</h1>
+    <h3>Esse é um programa gratúito feito com o intuito de facilitar o cálculo de volumes para aqueles que precisem dessa ferramenta.</h3>
+    </div>
+    <div class="container">
+
+        <!-- Cubo -->
+        <div class="solid-title">Cubo</div>
+        <div><img class="solid-image" src="https://cdn1.iconfinder.com/data/icons/aami-web-internet/64/aami15-64-512.png" alt=""></div>
+        <div class="answer-field">
+            <div class="cube-information">
+                <input id="cube" placeholder="Lado do Cubo" type="text">
+            </div>
+            <div id="cube-volume" class="solid-volume">
+                Volume do Cubo
+            </div>
+        </div>
+        <div><button id="btn-cube" class="calculate-button">Calcular</button></div>
+        <div><img id="image-go-back-cube" class="image-go-back" src="https://cdn4.iconfinder.com/data/icons/circle-arrow-and-ui/32/Circle-Arrow-4-512.png" alt=""></div>
+
+        <!-- Paralelepípedo -->
+        <div class="solid-title">Paralelepípedo</div>
+        <div><img class="solid-image" src="https://cdn1.iconfinder.com/data/icons/geometric-shapes-3/64/142_geometric-shape-parallelepiped-geometry-3d-06-512.png" alt=""></div>
+        <div class="answer-field-2">
+            <div class="solid-information">
+                <input id="parallelepiped-1" placeholder="Lado do Paralelepípedo" type="text">
+                <input id="parallelepiped-2" placeholder="Lado do Paralelepípedo" type="text">
+                <input id="parallelepiped-3" placeholder="Lado do Paralelepípedo" type="text">
+            </div>
+            <div id="parallelepiped-volume" class="solid-volume">Volume do Paralelepípedo</div>
+        </div>
+        <div><button id="btn-parallelepiped" class="calculate-button">Calcular</button></div>
+        <div><img id="image-go-back-parallelepiped" class="image-go-back" src="https://cdn4.iconfinder.com/data/icons/circle-arrow-and-ui/32/Circle-Arrow-4-512.png" alt=""></div>
+
+        <!-- Cilindro -->
+        <div class="solid-title">Cilindro</div>
+        <div><img class="solid-image" src="https://cdn1.iconfinder.com/data/icons/aami-web-internet/64/aami16-92-512.png" alt=""></div>
+        <div class="answer-field-2">
+            <div class="solid-information">
+                <input id="cylinder-1" placeholder="Valor do Raio da Base" type="text">
+                <input id="cylinder-2" placeholder="Valor da Altura" type="text">
+            </div>
+            <div id="cylinder-volume" class="solid-volume">Volume do Cilindro</div>
+        </div>
+        <div><button id="btn-cylinder" class="calculate-button">Calcular</button></div>
+        <div><img id="image-go-back-cylinder" class="image-go-back" src="https://cdn4.iconfinder.com/data/icons/circle-arrow-and-ui/32/Circle-Arrow-4-512.png" alt=""></div>
+
+        <!-- Cone -->
+        <div class="solid-title">Cone</div>
+        <div><img class="solid-image cone" src="https://cdn0.iconfinder.com/data/icons/math-and-geometry-outline/64/cone_geometry_3d_math-512.png" alt=""></div>
+        <div class="answer-field-2">
+            <div class="solid-information">
+                <input id="cone-1" placeholder="Valor do Raio da Base" type="text">
+                <input id="cone-2" placeholder="Valor da Altura" type="text">
+            </div>
+            <div id="cone-volume" class="solid-volume">Volume do Cone</div>
+        </div>
+        <div><button id="btn-cone" class="calculate-button">Calcular</button></div>
+        <div><img id="image-go-back-cone" class="image-go-back" src="https://cdn4.iconfinder.com/data/icons/circle-arrow-and-ui/32/Circle-Arrow-4-512.png" alt=""></div>
+
+        <!-- Esfera -->
+        <div class="solid-title">Esfera</div>
+        <div><img class="solid-image" src="https://cdn1.iconfinder.com/data/icons/geometric-shapes-3/64/142_geometry-3d-sphere-globe-round-13-512.png" alt=""></div>
+        <div class="answer-field-2">
+            <div class="solid-information">
+                <input id="sphere-1" placeholder="Valor do Raio" type="text">
+            </div>
+            <div id="sphere-volume" class="solid-volume">Volume da Esfera</div>
+        </div>
+        <div><button id="btn-sphere" class="calculate-button">Calcular</button></div>
+        <div><img id="image-go-back-sphere" class="image-go-back" src="https://cdn4.iconfinder.com/data/icons/circle-arrow-and-ui/32/Circle-Arrow-4-512.png" alt=""></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
