@@ -54,6 +54,7 @@ body h3 {
 .solid-image {
     width: 300px;
     padding: 15px;
+    max-height: 450px;
 }
 .answer-field {
     gap: 20px;
